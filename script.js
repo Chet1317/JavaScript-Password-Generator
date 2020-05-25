@@ -15,12 +15,13 @@ function writePassword() {
     tempass += uppercase;
     console.log(tempass);
   }
-  console.log("askUppercase");
+  console.log(askUppercase);
   var askNumbers = confirm ("Do you want to use numbers?")
-  console.log("askNumbers");
-  askPasswordlength = prompt ("Choose number of characters between 8 and 128 characters");
-  console.log(askPasswordlength);
-  console.logn(typeof(askPasswordlength));
+  if(askNumbers){
+    tempass += myNumbers;
+    console.log(tempass);
+  }
+  console.log(askNumbers);
   
 
 
