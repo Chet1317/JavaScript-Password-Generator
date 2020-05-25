@@ -4,7 +4,7 @@ var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var myNumbers = "1234567890";
 var askPasswordlength = 0;
 var tempass = "";
-
+var specialcharacters = "$!*+^#/-,:();>=%"
 
 // Write password to the #password input
 function writePassword() {
@@ -16,19 +16,23 @@ function writePassword() {
     console.log(tempass);
   }
   console.log(askUppercase);
-  var askNumbers = confirm ("Do you want to use numbers?")
+  var askNumbers = confirm ("Do you want to use numbers?");
   if(askNumbers){
     tempass += myNumbers;
     console.log(tempass);
   }
   console.log(askNumbers);
-askPasswordlength = prompt("How many characters between 8 and 128 would you like to use?")
+askPasswordlength = prompt("How many characters between 8 and 128 would you like to use?");
 console.log(askPasswordlength);
 console.log(typeof(askPasswordlength));
 askPasswordlength = Number(askPasswordlength);
 console.log(typeof(askPasswordlength));
 
+if (askPasswordlength >= 8 && askPasswordlength <= 128){
+  var mypassword = "";
 
+
+}
   passwordText.value = password;
 
 }
