@@ -3,6 +3,7 @@ var generateBtn = document.querySelector("#generate");
 var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var myNumbers = "1234567890";
 var askPasswordlength = 0;
+var tempass = "";
 
 
 // Write password to the #password input
