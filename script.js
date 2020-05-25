@@ -22,8 +22,9 @@ function writePassword() {
     console.log(tempass);
   }
   console.log(askNumbers);
-  
 
+askPasswordlength = prompt("How many characters between 8 and 128 would you like to use?")
+console.log(askPasswordlength)
 
   passwordText.value = password;
 
