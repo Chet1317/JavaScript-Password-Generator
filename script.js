@@ -24,7 +24,9 @@ function writePassword() {
   console.log(askNumbers);
 
 askPasswordlength = prompt("How many characters between 8 and 128 would you like to use?")
-console.log(askPasswordlength)
+console.log(askPasswordlength);
+console.log(typeof(askPasswordlength));
+
 
   passwordText.value = password;
 
