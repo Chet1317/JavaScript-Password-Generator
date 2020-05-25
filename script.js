@@ -7,6 +7,12 @@ var myNumbers = "1234567890";
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
+  var askUppercase = confirm ("Do you want to use uppercase?");
+  console.log("askUppercase");
+  var askNumbers = confirm ("Do you want to use numbers?")
+  console.log("askNumbers");
+  
+
 
   passwordText.value = password;
 
