@@ -46,7 +46,7 @@ if (askPasswordlength >= 8 && askPasswordlength <= 128){
    var mypassword = ""; 
 }
 
-for (var i=0; i<= askPasswordlength; i++ ) {
+for (var i=0; i< askPasswordlength; i++ ) {
   mypassword += tempass.charAt(Math.floor(Math.random()*Math.floor (tempass.length - 1 )));
   }
   passwordText.value = mypassword;
