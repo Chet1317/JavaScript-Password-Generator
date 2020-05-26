@@ -34,13 +34,14 @@ console.log(typeof(askPasswordlength));
 askPasswordlength = Number(askPasswordlength);
 console.log(typeof(askPasswordlength));
 
-if (askPasswordlength >= 8 && askPasswordlength <= 128);
+if (askPasswordlength >= 8 && askPasswordlength <= 128){
+   var mypassword = ""; 
+}
 
 for (var i=0; i<= askPasswordlength; i++ ) {
-  passwordText.value += tempass.charAt(Math.floor(Math.random()*tempass.length));
+  mypassword += tempass.charAt(Math.floor(Math.random()*Math.floor (tempass.length - 1 )));
   }
-  passwordText.value = HELLO 
-  ;
+  passwordText.value = mypassword;
 
 }
 
