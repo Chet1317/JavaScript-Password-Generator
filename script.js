@@ -1,6 +1,7 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var lowercase = "abcdefghijklmnopqrstuvwxyz";
 var myNumbers = "1234567890";
 var askPasswordlength = 0;
 var tempass = "";
