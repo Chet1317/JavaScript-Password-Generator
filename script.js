@@ -5,7 +5,7 @@ var myNumbers = "1234567890";
 var askPasswordlength = 0;
 var tempass = "";
 var specialcharacters = "$!*+^#/-,:();>=%"
-
+var mypassword = "";
 // Write password to the #password input
 function writePassword() {
   //var password = generatePassword();
@@ -22,25 +22,25 @@ function writePassword() {
     console.log(tempass);
   }
   console.log(askNumbers);
-var specialcharacters = confirm ("Do you want special characters" );
-if (specialcharacters){
+var askspecialcharacters = confirm ("Do you want special characters");
+if (askspecialcharacters){
   tempass += specialcharacters;
-  console.log(tempass)
+  console.log(tempass);
 }
-console.log(specialcharacters)
+console.log(specialcharacters);
 askPasswordlength = prompt("How many characters between 8 and 128 would you like to use?");
 console.log(askPasswordlength);
 console.log(typeof(askPasswordlength));
 askPasswordlength = Number(askPasswordlength);
 console.log(typeof(askPasswordlength));
 
-if (askPasswordlength >= 8 && askPasswordlength <= 128){
- var mypassword = "";
-}
+if (askPasswordlength >= 8 && askPasswordlength <= 128);
+
 for (var i=0; i<= askPasswordlength; i++ ) {
-  mypassword += tempass.charAt(Math.floor(Math.random()*tempass.length));
+  passwordText.value += tempass.charAt(Math.floor(Math.random()*tempass.length));
   }
-  passwordText.value = password;
+  passwordText.value = HELLO 
+  ;
 
 }
 
