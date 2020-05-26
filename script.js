@@ -28,7 +28,6 @@ if (specialcharacters){
   console.log(tempass)
 }
 console.log(specialcharacters)
-
 askPasswordlength = prompt("How many characters between 8 and 128 would you like to use?");
 console.log(askPasswordlength);
 console.log(typeof(askPasswordlength));
@@ -36,10 +35,11 @@ askPasswordlength = Number(askPasswordlength);
 console.log(typeof(askPasswordlength));
 
 if (askPasswordlength >= 8 && askPasswordlength <= 128){
-  var mypassword = "";
-
-
+ var mypassword = "";
 }
+for (var i=0; i<= askPasswordlength; i++ ) {
+  mypassword += tempass.charAt(Math.floor(Math.random()*tempass.length));
+  }
   passwordText.value = password;
 
 }
