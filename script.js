@@ -12,35 +12,38 @@ function writePassword() {
   //var password = generatePassword();
   var passwordText = document.querySelector("#password");
   var askUppercase = confirm ("Do you want to use uppercase?");
-  if (askUppercase){
+if (askUppercase){
     tempass += uppercase;
     console.log(tempass);
   }
   console.log(askUppercase);
+
   var asklowercase = confirm ("Do you want to use lowercase")
-  if (asklowercase){
+if (asklowercase){
     tempass += lowercase;
     console.log(tempass);
   }
   console.log(asklowercase);
 
   var askNumbers = confirm ("Do you want to use numbers?");
-  if(askNumbers){
+if(askNumbers){
     tempass += myNumbers;
     console.log(tempass);
   }
   console.log(askNumbers);
-var askspecialcharacters = confirm ("Do you want special characters");
+
+  var askspecialcharacters = confirm ("Do you want special characters");
 if (askspecialcharacters){
   tempass += specialcharacters;
   console.log(tempass);
 }
-console.log(specialcharacters);
-askPasswordlength = prompt("How many characters between 8 and 128 would you like to use?");
-console.log(askPasswordlength);
-console.log(typeof(askPasswordlength));
-askPasswordlength = Number(askPasswordlength);
-console.log(typeof(askPasswordlength));
+  console.log(specialcharacters);
+
+  askPasswordlength = prompt("How many characters between 8 and 128 would you like to use?");
+  console.log(askPasswordlength);
+  console.log(typeof(askPasswordlength));
+  askPasswordlength = Number(askPasswordlength);
+  console.log(typeof(askPasswordlength));
 
 if (askPasswordlength >= 8 && askPasswordlength <= 128){
    var mypassword = ""; 
