@@ -16,6 +16,7 @@ function writePassword() {
     tempass += uppercase;
     console.log(tempass);
   }
+  var asklowercase = confirm ("Do you want to use lowercase")
   console.log(askUppercase);
   var askNumbers = confirm ("Do you want to use numbers?");
   if(askNumbers){
