@@ -6,7 +6,6 @@ var myNumbers = "1234567890";
 var askPasswordlength = 0;
 var tempass = "";
 var specialcharacters = "$!*+^#/-,:();>=%"
-var mypassword = "";
 // Write password to the #password input
 function writePassword() {
   //var password = generatePassword();
